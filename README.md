@@ -12,7 +12,8 @@ In this exercise, you will be demonstrating that you understand how to use loops
 The following requirements must be met in order to complete the assignment successfully:
 
 1. Clone this repository from GitHub. **Aside from this README file, there are NO starter files for this assignment.** 
-2. Follow the instructions below to create the song lyrics for 3 songs. All of the songs must be displayed in the browser's console. Loops, objects and arrays must be used effectively to limit repeating code. 
+2. Create a `index.html` file and a `script.js` file. The `index.html` file should contain a standard HTML5 structure and should add `script.js` using the `<script></script>` tag.
+3. Follow the instructions below to create the song lyrics for 3 songs. All of the songs must be displayed in the browser's console. Loops, objects and arrays must be used effectively to limit repeating code. 
 
 ### The Songs
 
