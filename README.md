@@ -140,8 +140,12 @@ Mother duck said “Quack, quack, quack, quack”
 And all of the five little ducks came back.
 ```
 
-## Hint
+## Hints
 To improve readability, it is suggested to use a new `console.log()` for each line of a song, and a `console.log('')` with an empty string between each verse of a song. 
+
+The `join()` method can be useful for combining the item of an array into a string.
+
+While it more common to increment the iterator when using a `for` loop, it is possible to work backwards and decrement the iterator using `--`.
 
 ## Example
 
@@ -156,17 +160,19 @@ const verses = [
   { number: 'five', action: 'take a dive'},
 ]
 
+console.log('THE ANTS GO MARCHING')
+
 for (const verse of verses) {
 
   for (let i = 0; i < 2; i++) {
-    console.log(`
-    The ants go marching ${verse.number} by ${verse.number}
-    Hoorah! Hoorah!`)
+    console.log('')
+    console.log(`The ants go marching ${verse.number} by ${verse.number}`)
+    console.log('Hoorah! Hoorah!')
   }
 
-  console.log(`The ants go marching ${verse.number} by ${verse.number}
-  The little one stops to ${verse.action}
-  And they all go marching down to the ground to get out of the rain.`)
+  console.log(`The ants go marching ${verse.number} by ${verse.number}`)
+  console.log(`The little one stops to ${verse.action}`)
+  console.log('And they all go marching down to the ground to get out of the rain.')
 }
 ```
 
